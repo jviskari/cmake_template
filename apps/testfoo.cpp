@@ -6,5 +6,5 @@ int main()
   CFoo* foo = new CFoo();
   foo->doit();
   delete foo;
-  return 0;  
+  return 1;  
 }

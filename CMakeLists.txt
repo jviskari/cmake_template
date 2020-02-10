@@ -12,4 +12,10 @@ add_subdirectory(lib/parser)
 add_subdirectory(lib/foo)
 
 # executables
-add_subdirectory(test)
+add_subdirectory(apps)
+
+enable_testing()
+add_test(NAME app1 COMMAND app1)
+add_test(NAME app2 COMMAND app2)
+add_test(NAME app3 COMMAND app3)
+
